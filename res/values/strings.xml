@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">attendancemanagement</string>
+    <string name="Open">attendancemanagement</string>
+    <string name="Close">attendancemanagement</string>
+    <string name="android_studio_android_com">Attendance Management System</string>
+    <string name="android_studio">Android Studio</string>
+</resources>

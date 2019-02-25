@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.attendancemanagement">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/image"
+        android:label="Attendance Management"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Main3Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Main4Activity" />-
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".Main6Activity" />
+        <activity android:name=".Main7Activity" />
+        <activity android:name=".Main8Activity" />
+        <activity android:name=".Main9Activity" />
+        <activity android:name=".Main10Activity" />
+        <activity
+            android:name=".cse1101"
+            android:exported="true" />
+        <activity android:name=".Profile" android:screenOrientation="portrait" />
+        <activity android:name=".developer" />
+
+        <activity android:name=".fetch" android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
